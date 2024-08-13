@@ -18,7 +18,7 @@ export const BreedItem: FC<Props> = ({ breedParam, breedInfo }) => {
           'text-right font-bebas uppercase text-line font-bold tracking-[1.28px]'
         }
       >
-        {breedInfo}
+        {breedInfo || 'no information'}
       </p>
     </div>
   );

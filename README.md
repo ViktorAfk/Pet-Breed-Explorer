@@ -23,5 +23,5 @@ Detailed information about the Breed and a gallery of images of different animal
   - API requesting - Fetch;
   - UI libary - Tailwind;
 
-- [DEMO LINK](https://starnavi-starwars-task.vercel.app/) 
+- [DEMO LINK](https://pet-breed-explorer-zgf4.vercel.app/) 
   

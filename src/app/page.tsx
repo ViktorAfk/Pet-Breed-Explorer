@@ -16,7 +16,7 @@ export default async function Home() {
     <main>
       <Title
         tag={'h1'}
-        text={'Pet breed explore'}
+        text={'Pet breed explorer'}
         classes={'text-center text-4xl uppercase mb-4 text-primary'}
       />
       <Suspense fallback={<Loading />}>
