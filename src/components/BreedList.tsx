@@ -8,7 +8,11 @@ type Props = {
 
 export const BreedList: FC<Props> = ({ breeds }) => {
   return (
-    <div className={'grid gap-5 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'}>
+    <div
+      className={
+        'grid gap-5 min-h-dvh sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3'
+      }
+    >
       {breeds.map(({ id, breedId, imageUrl, petType, name }) => {
         return (
           <BreedCard

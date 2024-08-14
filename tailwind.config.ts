@@ -25,6 +25,7 @@ const config: Config = {
         primary: '#2A2B2A',
         secondary: '#4A7FE0',
         line: '#707481',
+        back: '#F4F4F4',
       },
       fontFamily: {
         roboto: ['Roboto', 'system-ui'],
